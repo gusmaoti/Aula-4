@@ -17,3 +17,12 @@ console.log(num.toFixed(2))
 let texto_1 = prompt("Digite seu nome: ")
 console.log("O nome dele é:", texto_1)
 document.write("O nome dele é: ", texto_1)
+document.write("<br>")
+
+let valor = 20
+if(valor == 10){
+    document.write("Valor = 10")
+}
+else{
+    document.write("Valor = ",valor)
+}
